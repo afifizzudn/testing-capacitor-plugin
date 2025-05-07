@@ -1,3 +1,3 @@
 export interface CapacitorPluginTestPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  getUserInfo(): Promise<{ name: string; role: string, note: string }>;
 }
